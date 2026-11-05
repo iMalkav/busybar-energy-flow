@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "id": "app.imalkav.energy_flow",
+  "name": "Energy Flow",
+  "version": "0.1.0",
+  "api_version": "27.14.0",
+  "author": "iMalkav",
+  "description": "Follow consumption, generation and grid flow.",
+  "heap_size_kib": 384,
+  "debug": false
+}
