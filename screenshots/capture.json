@@ -1,0 +1,54 @@
+{
+  "captured_at": "2026-11-05T13:52:27.815681+00:00",
+  "application": {
+    "format_version": 1,
+    "id": "app.imalkav.energy_flow",
+    "name": "Energy Flow",
+    "version": "0.1.0",
+    "api_version": "27.14.0",
+    "author": "iMalkav",
+    "description": "Follow consumption, generation and grid flow.",
+    "heap_size_kib": 384,
+    "debug": false
+  },
+  "firmware": {
+    "version": "r1051",
+    "target": 21,
+    "branch": "dev",
+    "build_date": "2026-10-30",
+    "commit_hash": "6ee64ba1",
+    "intercom_version": "6ee64ba1",
+    "nwp_version": "1611.2.1.1.255.11.71",
+    "matter_version": "1.0"
+  },
+  "api_version": "27.15.0",
+  "method": "GET /api/screen?display=0 and display=1; base64 decoded and saved as PNG without resizing or retouching",
+  "settings": {
+    "version": 1,
+    "values": {
+      "source_url": "https://raw.githubusercontent.com/iMalkav/busybar-energy-flow/1de80a72223aa7cff0293995d4f904f660ac300b/examples/response.json",
+      "token": "",
+      "refresh_s": 30
+    }
+  },
+  "inputs": [],
+  "data_note": "Example JSON data served from the public source repository; these are demonstration values, not a live third-party integration.",
+  "fixture": "examples/response.json",
+  "frames": [
+    {
+      "path": "screenshots/front.png",
+      "width": 72,
+      "height": 16,
+      "frame_sha256": "213ebe4faab1bb83c21a564778b532f3503240eee574783a6fb4ac88ae178873",
+      "png_sha256": "3b06b8fda284af3e53788da2574ad8da15e723fd6a08129092ddc2c79a4d1a64"
+    },
+    {
+      "path": "screenshots/back.png",
+      "width": 160,
+      "height": 80,
+      "frame_sha256": "70b5c66f9d53cc1a5a7b7adbcb20119c93a77560f6bcd33082dd24707923c692",
+      "png_sha256": "1e56f321f66b4ee8dff7b6936d749aa5897b0981705e11b71620527cb421474d"
+    }
+  ],
+  "verification": "Installed, launched, captured both displays, then quit via the device API. This is not comprehensive physical-device testing or verification on the latest release firmware."
+}

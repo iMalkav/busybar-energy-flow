@@ -1,5 +1,7 @@
 # Energy Flow for BUSY Bar
 
+[![CI](https://github.com/iMalkav/busybar-energy-flow/actions/workflows/ci.yml/badge.svg)](https://github.com/iMalkav/busybar-energy-flow/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 <img src="src/appmeta/icon_front_8x8.png" width="64" height="64" alt="Energy Flow icon">
 
 Follow consumption, generation and grid flow.
@@ -8,8 +10,12 @@ Category: **Smart Home**.
 
 ## Screenshots
 
-Native display captures and their firmware, settings and capture details are
-recorded in [docs/SCREENSHOTS.md](docs/SCREENSHOTS.md).
+<img src="screenshots/front.png" width="576" height="128" alt="Energy Flow on the BUSY Bar front display">
+
+<img src="screenshots/back.png" width="480" height="240" alt="Energy Flow on the BUSY Bar rear display">
+
+Captured from a physical BUSY Bar. See [capture details](docs/SCREENSHOTS.md)
+for firmware, settings and sample-data provenance.
 
 ## Controls
 
